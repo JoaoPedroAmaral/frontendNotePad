@@ -1,0 +1,151 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px;
+}
+
+/* Títulos principais */
+h1, h2, h3, h4 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* Estilos para o formulário de criar e editar notas */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+/* Botões */
+button {
+  background-color: #4EED63;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3cc24e;
+}
+
+/* Listagem das notas */
+ul {
+  list-style: none;
+  margin: 20px 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+li h3 {
+  color: #34495e;
+}
+
+li p {
+  color: #7f8c8d;
+}
+
+/* Estilo de tags */
+h4 {
+  margin-top: 10px;
+  color: #2980b9;
+}
+
+ul li {
+  display: inline-block;
+  background-color: #ecf0f1;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+ul li button {
+  background-color: #e74c3c;
+  padding: 2px 8px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+ul li button:hover {
+  background-color: #c0392b;
+}
+
+/* Formatação de input e botão de filtro */
+input[type="text"] {
+  width: 200px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+button {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Estilo para a parte de notas arquivadas */
+h2 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+ul li button {
+  background-color: #f39c12;
+  margin-left: 10px;
+}
+
+ul li button:hover {
+  background-color: #e67e22;
+}
+
+/* Estilos para o modo de edição */
+div {
+  margin-top: 20px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+button.cancel {
+  background-color: #e74c3c;
+}
+
+button.save {
+  background-color: #2ecc71;
+}
+
+button.cancel:hover {
+  background-color: #c0392b;
+}
+
+button.save:hover {
+  background-color: #27ae60;
+}
