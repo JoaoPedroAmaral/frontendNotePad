@@ -1,70 +1,226 @@
-# Getting Started with Create React App
+# BackupNotePad
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma aplicação full-stack para gerenciamento de notas, com suporte para arquivamento, tags e organização eficiente. Desenvolvido com **React** no front-end, **Node.js** no back-end e integração com bancos de dados.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Índice
 
-### `npm start`
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Funcionalidades](#funcionalidades)
+- [Pré-requisitos](#pré-requisitos)
+- [Como Rodar o Projeto](#como-rodar-o-projeto)
+  - [Backend](#backend)
+  - [Frontend](#frontend)
+- [Como Contribuir](#como-contribuir)
+- [Licença](#licença)
+- [Translation to English](#english)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Sobre o Projeto
 
-### `npm test`
+O **BackupNotePad** é uma solução prática para gerenciar notas com funcionalidades adicionais, como organização por tags e arquivamento. O projeto utiliza **React** para um front-end responsivo e dinâmico, e um **back-end Node.js** para manipulação de dados e integrações robustas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Frontend
+- **React**
+- **Axios** para consumo da API
+- **CSS Modules**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend
+- **Node.js**
+- **Express**
+- **MongoDB** (ou **MySQL**, dependendo da configuração)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Deploy
+- **Vercel** para o front-end
+- **Render** para o back-end
+- **Banco de dados online**
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Funcionalidades
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Criação, edição e exclusão de notas.
+- Organização por tags.
+- Arquivamento de notas.
+- Pesquisa e filtragem de notas.
+- API RESTful para integração de dados.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Pré-requisitos
 
-## Learn More
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Node.js** (v16 ou superior)
+- **npm** ou **yarn**
+- **Git**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Como Rodar o Projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Backend
 
-### Analyzing the Bundle Size
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seuusuario/BackupNotePad.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Instale as dependências:
 
-### Making a Progressive Web App
+    ```
+    cd Backend
+    npm install 
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. Configure as variáveis de ambiente: Crie um arquivo .env baseado no exemplo .env.example.
 
-### Advanced Configuration
+4. Inicie o servidor:
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Frontend
+1. Navegue até a pasta do front-end:
+    ```
+    cd Frontend
+    ```
+2. Instale as dependências:
+    ```
+    npm install
+    ```
+3.Inicie o servidor de desenvolvimento:
+
+    ```
+    npm start
+    ```
+
+4. Acesse a aplicação no navegador:
+
+````
+    http://localhost:3000
+````
+
+
+### Como Contribuir
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature:
+    ```
+    git checkout -b minha-feature
+    ```
+3. Faça commit das alterações:
+    ```
+    git commit -m 'Adiciona minha nova feature'
+    ```
+4. Envie para a branch principal:
+    ```
+    git push origin minha-feature
+    ```
+5. Abra um pull request.
+
+---
+## English
+
+---
+
+## About the Project
+
+**BackupNotePad** is a practical solution for managing notes with additional features, such as organization by tags and archiving. The project uses **React** for a responsive and dynamic front-end and a **Node.js** back-end for data handling and robust integrations.
+
+---
+
+## Technologies Used
+
+### Frontend
+- **React**
+- **Axios** for API consumption
+- **CSS Modules**
+
+### Backend
+- **Node.js**
+- **Express**
+- **MongoDB** (or **MySQL**, depending on the configuration)
 
 ### Deployment
+- **Vercel** for the front-end
+- **Render** for the back-end
+- **Online database**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Create, edit, and delete notes.
+- Organize notes by tags.
+- Archive notes.
+- Search and filter notes.
+- RESTful API for data integration.
+
+---
+
+## Prerequisites
+
+Before starting, make sure you have the following tools installed:
+
+- **Node.js** (v16 or higher)
+- **npm** or **yarn**
+- **Git**
+
+---
+
+## How to Run the Project
+
+### Backend
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/BackupNotePad.git
+2. Install dependencies:
+    ```
+    cd Backend
+    npm install 
+3. Configure environment variables: Create a .env file based on the .env.example file.
+
+4. Start the server:
+
+    ```
+    npm start
+
+
+### Frontend
+1. Navigate to the front-end folder:
+
+    ```
+    cd Frontend
+2. Install dependencies:
+
+    ```
+    npm install
+3. Start the development server:
+
+    ```
+    npm start
+4. Access the application in your browser:
+
+    ```
+    http://localhost:3000
+
+### How to Contribute
+1. Fork the project.
+2. Create a branch for your feature:
+    ```
+    git checkout -b my-feature
+3. Commit your changes:
+    ```
+    git commit -m 'Add my new feature'
+4. Push to the main branch:
+    ```
+    git push origin my-feature
+5. Open a pull request.
+
