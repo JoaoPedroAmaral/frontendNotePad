@@ -11,7 +11,7 @@ import {
   filterNotesByTag,
   removeTags
 } from './api';
-
+import { Analytics } from "@vercel/analytics/react"
 import './index.css';
 
 const App = () => {
@@ -146,7 +146,7 @@ const App = () => {
 
   return (
     <div>
-      
+      <Analytics/>
       <h1>Notas</h1>
       
       
